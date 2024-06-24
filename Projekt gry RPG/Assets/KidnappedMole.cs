@@ -7,10 +7,12 @@ public class KidnappedMole : MonoBehaviour
     public GameObject kidnapper;
     public GameObject victim;
 
+    public GameObject quest11;
     private QuestGiver questGiver;
 
     void Start()
     {
+        quest11.SetActive(false);
         QuestGiver[] allQuestGivers = FindObjectsOfType<QuestGiver>();
         foreach (QuestGiver qg in allQuestGivers)
         {
@@ -35,6 +37,14 @@ public class KidnappedMole : MonoBehaviour
         victimPosition.z -= 10;
         kidnapper.transform.position = victimPosition;
         kidnapper.SetActive(true);
+        if (questGiver != null)
+        {
+            questGiver.setQuestActive(13);
+            Debug.Log("KidnappedMole aktywacja zadania: " + 13);
+            questGiver.wall.SetActive(false);
+            questGiver.ActivateDialogueTrigger(14);
+
+        }
     }
 
     float frames = 0;
@@ -56,11 +66,7 @@ public class KidnappedMole : MonoBehaviour
         }
         if(frames >= 20)
         {
-            if (questGiver != null)
-            {
-                questGiver.setQuestActive(13);
-                questGiver.wall.SetActive(false);
-            }
+            questGiver.HidePanel();
 
             victim.SetActive(false);
             kidnapper.SetActive(false);

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
@@ -14,7 +15,9 @@ namespace Assets.Scripts.Player
         public Stat damage = new Stat(20);
         public Stat maxhealth = new Stat(100);
         public double currentHealth { get; private set; }
-        public double currentQuest = 0;
+        public Quest quest = new Quest(); 
+
+        //public double currentQuest = 0;
         //armor not implemented yet
         public Stat armor = new Stat(0);
         public Stat attackRange = new Stat(3);

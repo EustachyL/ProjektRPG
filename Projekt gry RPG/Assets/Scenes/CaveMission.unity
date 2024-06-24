@@ -786,6 +786,121 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 933fe92e2c25b8646b94a8885e47a723, type: 3}
+--- !u!1001 &44991051
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1201843667}
+    m_Modifications:
+    - target: {fileID: 1770331114330631082, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2104135600189617787, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2543640013003407650, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6313456520489238556, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7707602404002531702, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_Name
+      value: BatNotEvil
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.687439
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.1857996
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.7142925
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98560035
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.16909151
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -19.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7707602404002531702, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 439093417}
+    - targetCorrespondingSourceObject: {fileID: 7707602404002531702, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 439093416}
+    - targetCorrespondingSourceObject: {fileID: 7707602404002531702, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 439093415}
+  m_SourcePrefab: {fileID: 100100000, guid: e4d13a2a075fcba4aaa624d7fa2e29b6, type: 3}
 --- !u!1 &45955751 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 101508, guid: 98cb6746d8cc81a4baaf4e0e29a0008b,
@@ -1448,7 +1563,7 @@ Transform:
   m_Children:
   - {fileID: 1013779201}
   - {fileID: 777256944}
-  m_Father: {fileID: 1013078235}
+  m_Father: {fileID: 1297837956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &137019287 stripped
 GameObject:
@@ -2202,17 +2317,17 @@ PrefabInstance:
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.103
+      value: -0.844
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.327
+      value: -1.98
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.22
+      value: 52.5
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
@@ -2280,7 +2395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &218325068
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4215,6 +4330,78 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1615754600}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &439093413 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7707602404002531702, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+    type: 3}
+  m_PrefabInstance: {fileID: 44991051}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &439093414 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
+    type: 3}
+  m_PrefabInstance: {fileID: 44991051}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &439093415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439093413}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04a6ae2f7ab1cf4458d12613602a3555, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visualCue: {fileID: 1233162999}
+  inkJSON: {fileID: 4900000, guid: 2843f5023509f024795e8c022ffcec39, type: 3}
+  questGiverId: 14
+  character:
+    isAvailable: 0
+    id: 14
+    name: Bat Wuhan
+    description: "Bat Wuhan to niebezpieczny i intryguj\u0105cy nietoperz, kt\xF3ry
+      rz\u0105dzi podziemnymi korytarzami jaski\u0144. Cho\u0107 jest znany z agresywnego
+      zachowania i d\u0105\u017Cenia do w\u0142adzy nad innymi stworzeniami, w rzeczywisto\u015Bci
+      jest on lojalnym pomocnikiem szczura Remy'ego \u017Bniwiarza. Jego reputacja
+      jako przest\u0119pcy sprawia, \u017Ce wiele zwierz\u0105t boi si\u0119 krzy\u017Cowa\u0107
+      mu drog\u0119. Bat Wuhan wykonuje zlecenia Remy'ego, dzia\u0142aj\u0105c jako
+      jego prawa r\u0119ka i zawsze jest gotowy do wykonywania jego brudnych prac. "
+    image: {fileID: 21300000, guid: 31f4f0aa35597d340a3b1161a22ebc9d, type: 3}
+--- !u!65 &439093416
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439093413}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10, y: 10, z: 7}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &439093417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439093413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d45ea0c5bd455d488ce5970c5286bb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &441744269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6936,6 +7123,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4607575505401315807, guid: c9aae71fbe2ea224c980006ccbd85a0d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.25543213
+      objectReference: {fileID: 0}
     - target: {fileID: 4817296881408236229, guid: c9aae71fbe2ea224c980006ccbd85a0d,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -6969,7 +7161,7 @@ PrefabInstance:
     - target: {fileID: 4840605411505462604, guid: c9aae71fbe2ea224c980006ccbd85a0d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.5000038
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5449634564286651035, guid: c9aae71fbe2ea224c980006ccbd85a0d,
         type: 3}
@@ -7030,6 +7222,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7128435760316352020, guid: c9aae71fbe2ea224c980006ccbd85a0d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.9580078
       objectReference: {fileID: 0}
     - target: {fileID: 7962492844793643353, guid: c9aae71fbe2ea224c980006ccbd85a0d,
         type: 3}
@@ -7540,6 +7737,7 @@ MonoBehaviour:
   questGiverId: 13
   quest:
     isActive: 0
+    id: 0
     title: Porwanie Bogdana
     description: "Co to by\u0142o!? Kret Bogdan ewidentnie chcia\u0142 przekaza\u0107
       Ci co\u015B wa\u017Cnego, a nietoperzowi najwidoczniej bardzo zale\u017Ca\u0142o,
@@ -7556,6 +7754,10 @@ MonoBehaviour:
   BookContentText: {fileID: 2077087387}
   wall: {fileID: 218325067}
   remy: {fileID: 0}
+  batNotEvil: {fileID: 0}
+  batEvil: {fileID: 0}
+  ratNotEvil: {fileID: 0}
+  ratEvil: {fileID: 0}
 --- !u!65 &767035338
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7575,7 +7777,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.6, y: 1.5, z: 5}
+  m_Size: {x: 18.88, y: 3, z: 6}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &767035339
 MonoBehaviour:
@@ -8273,14 +8475,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 843456979}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 129.05257, y: -2.9817996, z: 33.404293}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 173.73303, y: -9.386122, z: -337.07364}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1383747241}
   - {fileID: 2045690784}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1848183058}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &855706795 stripped
 Transform:
@@ -8629,6 +8831,84 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1378801904}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &901547383
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1201843667}
+    m_Modifications:
+    - target: {fileID: 4220762660646412998, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+        type: 3}
+      propertyPath: m_Name
+      value: DialogueCube (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907371799744776666, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907371799744776666, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907371799744776666, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 390.94745
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907371799744776666, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.771801
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907371799744776666, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 414.2157
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907371799744776666, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907371799744776666, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907371799744776666, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907371799744776666, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907371799744776666, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907371799744776666, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907371799744776666, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b, type: 3}
 --- !u!4 &903943301 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8387090050415058098, guid: 933fe92e2c25b8646b94a8885e47a723,
@@ -9716,50 +9996,15 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 718478709}
-  - {fileID: 133490029}
+  - {fileID: 1201843667}
   m_Father: {fileID: 803202085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1013779200 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7707602404002531702, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1575285816}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1013779201 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8067625586045556168, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
     type: 3}
   m_PrefabInstance: {fileID: 1575285816}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1013779202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1013779200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1f0640daabc4684cbbe5d08193f0142, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  questGiverId: 14
-  quest:
-    isActive: 0
-    title: Walka o Przyjaciela
-    description: "Bat jest przekonany, \u017Ce nie mo\u017Ce z Tob\u0105 przegra\u0107.
-      Stocz z nim walk\u0119 i poka\u017C mu, \u017Ce si\u0119 myli."
-    newQuestInfo: "Stocz walk\u0119 z Batem Wuhanem"
-    itemsToCollect: 0
-    itemsCollected: 0
-  player: {fileID: 2129070679}
-  newQuestPanel: {fileID: 206117431}
-  TitleText: {fileID: 71296220}
-  ContentText: {fileID: 1559058222}
-  BookTitleText: {fileID: 1261468886}
-  BookContentText: {fileID: 2077087387}
-  wall: {fileID: 0}
-  remy: {fileID: 0}
 --- !u!1 &1014866866 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7707602404002531702, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
@@ -9787,6 +10032,7 @@ MonoBehaviour:
   questGiverId: 14
   quest:
     isActive: 0
+    id: 0
     title: Walka o Przyjaciela
     description: "Bat jest przekonany, \u017Ce nie mo\u017Ce z Tob\u0105 przegra\u0107.
       Stocz z nim walk\u0119 i poka\u017C mu, \u017Ce si\u0119 myli."
@@ -9799,8 +10045,12 @@ MonoBehaviour:
   ContentText: {fileID: 1559058222}
   BookTitleText: {fileID: 1261468886}
   BookContentText: {fileID: 2077087387}
-  wall: {fileID: 133490028}
-  remy: {fileID: 718478708}
+  wall: {fileID: 0}
+  remy: {fileID: 0}
+  batNotEvil: {fileID: 718478708}
+  batEvil: {fileID: 133490028}
+  ratNotEvil: {fileID: 0}
+  ratEvil: {fileID: 0}
 --- !u!114 &1014866879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9847,7 +10097,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 6, y: 3, z: 6}
+  m_Size: {x: 10, y: 10, z: 7}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1014866881
 MonoBehaviour:
@@ -9909,6 +10159,7 @@ MonoBehaviour:
   questGiverId: 1
   quest:
     isActive: 0
+    id: 0
     title: Skradziona kosa
     description: "Krowa Wies\u0142awa, znana z nieustraszonej postawy i pracowito\u015Bci,
       potrzebuje twojej pomocy. Jej kos\u0119, niezb\u0119dn\u0105 do zbierania plon\xF3w,
@@ -9929,6 +10180,10 @@ MonoBehaviour:
   BookContentText: {fileID: 0}
   wall: {fileID: 0}
   remy: {fileID: 0}
+  batNotEvil: {fileID: 0}
+  batEvil: {fileID: 0}
+  ratNotEvil: {fileID: 0}
+  ratEvil: {fileID: 0}
 --- !u!114 &1016973115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9941,38 +10196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c26fb95dc2c555429bc871f68901f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visualCue: {fileID: 472345377}
-  inkJSON: {fileID: 4900000, guid: 343ce240b89578c4fa2608ba34bb41b3, type: 3}
-  questGiverId: 1
-  character:
-    isAvailable: 0
-    id: 1
-    name: "Wies\u0142awa Wo\u0142obitka"
-    description: "Wies\u0142awa Wo\u0142obitka to twarda i nieustraszona krowa, kt\xF3rej
-      \u017Cycie obraca si\u0119 wok\xF3\u0142 pracy na roli. Znana ze swojej konkretnej
-      postawy i zdolno\u015Bci do wyra\u017Cania swoich pogl\u0105d\xF3w bez ogr\xF3dek,
-      Wies\u0142awa jest filarem spo\u0142eczno\u015Bci Kud\u0142ogrodu. Jej pola
-      uprawne s\u0105 \u017Ar\xF3d\u0142em po\u017Cywienia dla wielu mieszka\u0144c\xF3w,
-      a ona sama nie boi si\u0119 stawi\u0107 czo\u0142a \u017Cadnym wyzwaniom, jakie
-      mog\u0105 pojawi\u0107 si\u0119 na jej drodze. "
-    image: {fileID: 21300000, guid: 31f4f0aa35597d340a3b1161a22ebc9d, type: 3}
-  questGiver: {fileID: 0}
-  playerInRange: 0
-  firstPersonController: {fileID: 0}
-  currentQuest: 0
-  characters:
-  - isAvailable: 0
-    id: 99
-    name: "Je\u017C Jerzy"
-    description: "Jerzy to nieustraszony mi\u0119dzyplanetarny policjant, dzia\u0142aj\u0105cy
-      w galaktyce Animalia. Ta galaktyka jest domem dla r\xF3\u017Cnorodnych gatunk\xF3w
-      zwierz\u0105t zamieszkuj\u0105cych liczne planety. Jako policjant, Jerzy reaguje
-      na wyj\u0105tkowe zg\u0142oszenia od mieszka\u0144c\xF3w planet, kt\xF3rzy
-      s\u0105 zaniepokojeni wydarzeniami w swoich miejscach zamieszkania. Tym razem
-      Jerzy otrzyma\u0142 wezwanie z malutkiej planety o nazwie Medievalis, gdzie
-      musi stawi\u0107 czo\u0142a nowemu wyzwaniu. Wyrusza na misj\u0119 ratowania
-      planety, gdzie czeka go wiele niebezpiecze\u0144stw i tajemnic do odkrycia."
-    image: {fileID: 21300000, guid: f5bf6d032e130dd48ba172b7c2a9f4a9, type: 3}
 --- !u!1001 &1022009740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10099,7 +10322,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1030095180
 Transform:
   m_ObjectHideFlags: 0
@@ -10112,7 +10335,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1097768050}
   m_Father: {fileID: 803202085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1037088370
@@ -10754,7 +10978,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1097768050
 Transform:
   m_ObjectHideFlags: 0
@@ -10763,14 +10987,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097768049}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 129.05257, y: -2.9817996, z: 33.404293}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 173.73303, y: -9.386122, z: -337.07364}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1478193849}
   - {fileID: 210660207}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1030095180}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1099642689
 PrefabInstance:
@@ -11595,6 +11819,39 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300010, guid: 6d47a798ff5bab5488c68456937884d1, type: 3}
+--- !u!1 &1201843666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1201843667}
+  m_Layer: 0
+  m_Name: BatNotEvil (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1201843667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201843666}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 173.73303, y: -9.386122, z: -337.07364}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 439093414}
+  - {fileID: 1233163000}
+  m_Father: {fileID: 1013078235}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1202420603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11823,6 +12080,18 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1480718608}
   m_SourcePrefab: {fileID: 100100000, guid: 140a95403931ee54bb288141dcc0395b, type: 3}
+--- !u!1 &1233162999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4220762660646412998, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+    type: 3}
+  m_PrefabInstance: {fileID: 901547383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1233163000 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4907371799744776666, guid: b6aa2a6ab0046b34cbc7c1be9ddd470b,
+    type: 3}
+  m_PrefabInstance: {fileID: 901547383}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1235915294 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 172408, guid: 140a95403931ee54bb288141dcc0395b,
@@ -12203,7 +12472,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 133490029}
   m_Father: {fileID: 803202085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1298424099 stripped
@@ -13441,6 +13711,7 @@ MonoBehaviour:
   questGiverId: 17
   quest:
     isActive: 0
+    id: 0
     title: O bogowie, walka!
     description: "No na co czekasz? Krowa Wies\u0142awa musi zebra\u0107 plony! Pokonaj
       tego szczura raz dwa!"
@@ -13453,8 +13724,12 @@ MonoBehaviour:
   ContentText: {fileID: 1559058222}
   BookTitleText: {fileID: 1261468886}
   BookContentText: {fileID: 2077087387}
-  wall: {fileID: 133490028}
+  wall: {fileID: 916335788}
   remy: {fileID: 0}
+  batNotEvil: {fileID: 0}
+  batEvil: {fileID: 0}
+  ratNotEvil: {fileID: 843456979}
+  ratEvil: {fileID: 1097768049}
 --- !u!114 &1383747244
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14634,17 +14909,17 @@ PrefabInstance:
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.103
+      value: -0.844
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.81449986
+      value: -0.46749997
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.22
+      value: 52.5
       objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74,
         type: 3}
@@ -14954,6 +15229,7 @@ MonoBehaviour:
   questGiverId: 18
   quest:
     isActive: 0
+    id: 0
     title: O bogowie, walka!
     description: "No na co czekasz? Krowa Wies\u0142awa musi zebra\u0107 plony! Pokonaj
       tego szczura raz dwa!"
@@ -14968,6 +15244,10 @@ MonoBehaviour:
   BookContentText: {fileID: 2077087387}
   wall: {fileID: 133490028}
   remy: {fileID: 0}
+  batNotEvil: {fileID: 0}
+  batEvil: {fileID: 0}
+  ratNotEvil: {fileID: 0}
+  ratEvil: {fileID: 0}
 --- !u!114 &1478193851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15986,6 +16266,7 @@ MonoBehaviour:
   questGiverId: 16
   quest:
     isActive: 0
+    id: 0
     title: Ostateczne poszukiwania
     description: "Teraz ju\u017C wiesz kto stoi za kradzie\u017C\u0105 kosy. Pozosta\u0142o
       Ci odnale\u017A\u0107 tego przebieg\u0142ego szczura i stoczy\u0107 z nim ostateczn\u0105
@@ -16001,6 +16282,10 @@ MonoBehaviour:
   BookContentText: {fileID: 2077087387}
   wall: {fileID: 1389535628}
   remy: {fileID: 0}
+  batNotEvil: {fileID: 0}
+  batEvil: {fileID: 0}
+  ratNotEvil: {fileID: 0}
+  ratEvil: {fileID: 0}
 --- !u!65 &1540410381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16378,11 +16663,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7707602404002531702, guid: e4d13a2a075fcba4aaa624d7fa2e29b6,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1013779202}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4d13a2a075fcba4aaa624d7fa2e29b6, type: 3}
 --- !u!1001 &1578354059
 PrefabInstance:
@@ -16510,13 +16791,13 @@ Transform:
   m_GameObject: {fileID: 1578466675}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -44.780636, y: 6.7344027, z: 370.98083}
+  m_LocalPosition: {x: -0.100177765, y: 0.33008003, z: 0.50289917}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1540410377}
   - {fileID: 183785659}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1839479007}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1580866645 stripped
 GameObject:
@@ -18728,17 +19009,17 @@ PrefabInstance:
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.103
+      value: -0.844
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.81449986
+      value: -0.46749997
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.22
+      value: 52.5
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81,
         type: 3}
@@ -19481,7 +19762,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1839479007
 Transform:
   m_ObjectHideFlags: 0
@@ -19494,7 +19775,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1578466676}
   m_Father: {fileID: 803202085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1842446263 stripped
@@ -19778,7 +20060,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1848183058
 Transform:
   m_ObjectHideFlags: 0
@@ -19791,7 +20073,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 843456980}
   m_Father: {fileID: 803202085}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1850775868
@@ -23320,32 +23603,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c26fb95dc2c555429bc871f68901f76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visualCue: {fileID: 472345377}
-  inkJSON: {fileID: 4900000, guid: 8fd827af37f10a74ebc25bf1c71e0d0a, type: 3}
-  questGiverId: 22222
-  character:
-    isAvailable: 0
-    id: 99
-    name: 
-    description: 
-    image: {fileID: 0}
-  questGiver: {fileID: 0}
-  playerInRange: 0
-  firstPersonController: {fileID: 0}
-  currentQuest: 0
-  characters:
-  - isAvailable: 0
-    id: 99
-    name: "Je\u017C Jerzy"
-    description: "Jerzy to nieustraszony mi\u0119dzyplanetarny policjant, dzia\u0142aj\u0105cy
-      w galaktyce Animalia. Ta galaktyka jest domem dla r\xF3\u017Cnorodnych gatunk\xF3w
-      zwierz\u0105t zamieszkuj\u0105cych liczne planety. Jako policjant, Jerzy reaguje
-      na wyj\u0105tkowe zg\u0142oszenia od mieszka\u0144c\xF3w planet, kt\xF3rzy
-      s\u0105 zaniepokojeni wydarzeniami w swoich miejscach zamieszkania. Tym razem
-      Jerzy otrzyma\u0142 wezwanie z malutkiej planety o nazwie Medievalis, gdzie
-      musi stawi\u0107 czo\u0142a nowemu wyzwaniu. Wyrusza na misj\u0119 ratowania
-      planety, gdzie czeka go wiele niebezpiecze\u0144stw i tajemnic do odkrycia."
-    image: {fileID: 21300000, guid: f5bf6d032e130dd48ba172b7c2a9f4a9, type: 3}
 --- !u!65 &2113482650
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23382,6 +23639,7 @@ MonoBehaviour:
   questGiverId: 11
   quest:
     isActive: 0
+    id: 0
     title: 15 na jednego
     description: "Tw\xF3j nowy przyjaciel pokaza\u0142 Ci bezpieczn\u0105 drog\u0119
       w g\u0142\u0105b jaskini. Ale czy na pewno jest ona bezpieczna..? Twoim zadaniem
@@ -23397,6 +23655,10 @@ MonoBehaviour:
   BookContentText: {fileID: 2077087387}
   wall: {fileID: 981603375}
   remy: {fileID: 1592407831}
+  batNotEvil: {fileID: 0}
+  batEvil: {fileID: 0}
+  ratNotEvil: {fileID: 0}
+  ratEvil: {fileID: 0}
 --- !u!114 &2113482663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23946,6 +24208,3 @@ SceneRoots:
   - {fileID: 328036142}
   - {fileID: 2029155496}
   - {fileID: 803202085}
-  - {fileID: 1578466676}
-  - {fileID: 843456980}
-  - {fileID: 1097768050}

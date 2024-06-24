@@ -20,7 +20,6 @@ public class DialogueTrigger : MonoBehaviour
     private bool playerInRange;
     private StarterAssets.FirstPersonController firstPersonController;
     private KidnappedMole kidnappedMole;
-    private double currentQuest = Player.Instance.currentQuest;
     private List<Character> characters = Player.Instance.characters;
     
 
@@ -32,17 +31,18 @@ public class DialogueTrigger : MonoBehaviour
             if (qg.questGiverId == questGiverId)
             {
                 questGiver = qg;
+                Debug.LogError("Zosta³ przypisany " +  qg.questGiverId);
                 break;
             }
         }
 
         if (questGiver != null)
         {
-            Debug.Log("Znaleziono QuestGiver z ID: " + questGiverId);
+            Debug.LogError("Dialogue Trig Znaleziono QuestGiver z ID: " + questGiverId);
         }
         else
         {
-            Debug.Log("Nie znaleziono QuestGiver z ID: " + questGiverId);
+            Debug.LogError("Nie znaleziono QuestGiver z ID: " + questGiverId);
         }
 
         // Znalezienie FirstPersonController
@@ -81,19 +81,24 @@ public class DialogueTrigger : MonoBehaviour
 
     private void OnDialogueEnd()
     {
-        if (questGiver != null && questGiverId == 13)
-        {
-            if (kidnappedMole != null)
+
+            if (questGiver != null && questGiverId == 13 && questGiver.executed == false)
             {
-                kidnappedMole.enabled = true;
+                if (kidnappedMole != null)
+                {
+                    kidnappedMole.enabled = true;
+                }
             }
-        }
 
 
-        if (questGiver != null && questGiverId != 13)
-        {
-            questGiver.setQuestActive(questGiverId);
-        }
+            if (questGiver != null && Player.Instance.quest.id != 12 && questGiver.executed == false)
+        { 
+        Debug.Log("DialogueTrigger aktywacja zadania: " + questGiverId + " z Player.Instance.quest.id= " + Player.Instance.quest.id);
+                questGiver.setQuestActive(questGiverId);
+            questGiver.executed = true;
+               
+           }
+
 
         visualCue.SetActive(false);
 
@@ -118,17 +123,23 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (playerInRange && !DialogueManager.GetInstance().dialogueIsPlaying)
         {
-                if (Player.Instance.currentQuest == 12 && questGiverId == 13)
-                {
-                        questGiver.finishQuest();
-                }
+            Debug.Log("current to: " + Player.Instance.quest.id + "  a questqiverid to: " + questGiverId);
 
-            if (Player.Instance.currentQuest == 13 && questGiverId == 14)
+
+            if (Player.Instance.quest.id == 12 && questGiverId == 13)
             {
                 questGiver.finishQuest();
             }
 
+            if (Player.Instance.quest.id == 13 && questGiverId == 14)
+            {
+                questGiver.finishQuest();
+            }
 
+            if (Player.Instance.quest.id == 15 && questGiverId == 16)
+            {
+                questGiver.finishQuest();
+            }
 
 
             if (questGiverId == character.id && character.isAvailable == false)
